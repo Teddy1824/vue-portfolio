@@ -1,5 +1,29 @@
 <template>
  <h1>Projects</h1>
+
+ <label>Sort Name:</label>
+ <select v-model="name" @change="sortName(name)">
+     <option value="select">-Select-</option>
+     <option value="asc">Ascending</option>
+     <option value="desc">Descending</option>
+ </select>
+
+ <label>Sort Language:</label>
+ <select v-model="slang" @change="sortLang(slang)">
+     <option value="select">-Select-</option>
+     <option value="asc">Ascending</option>
+     <option value="desc">Descending</option>
+ </select>
+
+ <label>Filter by Language</label>
+ <select v-model="flang" @change="filterLang(flang)">
+     <option value="all">All</option>
+     <option value="html">HTML</option>
+     <option value="javascript">JavaScript</option>
+     <option value="vue">Vue</option>
+ </select>
+ <br/>
+
  <div class="project-container" v-if="projects.length">
 <div v-for="project in projects" :key="project.id" class="project">
  <router-link :to="{ name: 'ProjectD', params: {id:project.id}}">
@@ -17,6 +41,7 @@
  </router-link>
 </div>
  </div>
+
 </template>
 
 <script>
@@ -24,7 +49,11 @@ export default {
   props: ['id'],
   data() {
       return {
-          projects: []
+          projects: [],
+
+          name: '',
+          slang: '',
+          flang: ''
       }
   },
   mounted() {

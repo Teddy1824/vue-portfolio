@@ -5,7 +5,8 @@
        <div class="row align-items-center">
           <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
           <img class="home-img" src="../assets/Bongani.jpg">
-          </div><div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+          </div>
+          <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span class="home-title pgray"><h2>Welcome to my portfolio!</h2></span>
           <div>
           <p>I'm Bongani Nomangola, An aspiring Full-stack developer that is eager to learn and grow in the tech industry. </p>
@@ -48,6 +49,10 @@ export default {
   vertical-align: middle;
   border-style: none;
   border-radius: 10px;
+}
+
+p {
+  font-size: larger;
 }
   
 </style>

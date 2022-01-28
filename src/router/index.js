@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Timeline from '../views/Timeline.vue'
+// import Timeline from '../views/Timeline.vue'
 import Skills from '../views/Skills.vue'
 import Projects from '../views/Projects.vue'
 import ProjectD from '../views/ProjectD.vue'
@@ -25,11 +25,11 @@ const routes = [
     component: About,
     props: true
   },
-  {
-    path: '/timeline',
-    name: 'Timeline',
-    component: Timeline
-  },
+  // {
+  //   path: '/timeline',
+  //   name: 'Timeline',
+  //   component: Timeline
+  // },
   {
     path: '/skills',
     name: 'Skills',

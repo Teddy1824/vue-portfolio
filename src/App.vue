@@ -16,10 +16,10 @@
           <router-link to="/about">About</router-link> |
         </li>
         <br/>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <router-link to="/timeline">Timeline</router-link> |
         </li>
-        <br/>
+        <br/> -->
         <li class="nav-item">
           <router-link to="/projects">Projects</router-link> |
         </li>
