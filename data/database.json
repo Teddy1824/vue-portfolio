@@ -14,5 +14,13 @@
     {"name":"Bongani", "surname":"Nomangola", "gender":"Male"},
     {"first-p":"A dedicated and focused individual who can also display a fun-loving and sociable character.Willing to learn new things and able to communicate with my peers when I'm in need of help,as I do the same for my peers.", "second-p":"A friend of mine that was exposed to computers at a young age.We met in high school and introduced me to IT and the vast branches that are in IT, Coding caught my eye and I started to become interested in Coding."}
   
+  ],
+
+  "testimonials": [
+    {"name": "Kyle", "surname":"", "occupation": "Coleage", "comment": ""},
+    {"name": "Na-aim", "surname":"", "occupation": "Coleage", "comment": ""},
+    {"name": "Zharne", "surname":"", "occupation": "Coleage", "comment": ""},
+    {"name": "Yusuf", "surname":"", "occupation": "Coleage", "comment": ""},
+    {"name": "Alex", "surname":"", "occupation": "Lecturer", "comment": ""}
   ]
 }

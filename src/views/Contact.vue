@@ -77,6 +77,7 @@ export default {
 <style>
 .pgray {
   flex-wrap: wrap;
+  display: inline-grid;
 }
 .container {
   text-align: center;
@@ -142,6 +143,7 @@ textarea {
 
 .alt-send-button:hover {
   transform: translate3d(0px, -29px, 0px);
+  color: lightgray;
 }
 
 /* Begin Right Contact Page */
@@ -188,6 +190,7 @@ textarea {
 .contact-text a:hover {
   color: #fff;
   text-decoration: none;
+  background-color: lightgray;
 }
 
 
@@ -234,7 +237,7 @@ textarea {
 }
 
 .social-media-list li:hover {
-  background-color: #fff; 
+  background-color: lightgray; 
 }
 
 .social-media-list li:hover:after {
