@@ -1,5 +1,6 @@
 <template>
   <h1 class="display-2">Testimonials</h1>
+  <hr class="line">
 <div class="text">
 <div class="slider">
 		<input type="radio" name="testimonial" id="t-1">
@@ -9,28 +10,28 @@
 		<input type="radio" name="testimonial" id="t-5">
 		<div class="testimonials">
 			<label class="items" for="t-1">
-				<img src="images/Testimonial images/yusuf.jpg" alt="picture">
-				<p>"Bongani is dedicated,committed and focused in whatever he puts his mind to."</p>
+				<img src="https://cdn.discordapp.com/attachments/897126668349628487/937690951592321074/20191123_151649.jpg" alt="picture" class="lili">
+				<p class="animate__animated animate__slideInUp">"Bongani is dedicated,committed and focused in whatever he puts his mind to."</p>
 				<h2>- Yusuf Boltman, Colleagues</h2>
 			</label>
 			<label class="items" for="t-2">
 				<img src="https://i.postimg.cc/J4m0rmrv/zharne.jpg" alt="picture">
-				<p>"Bongani is focused and committed to his work. He delivers quality work and works well in a team."</p>
+				<p class="animate__animated animate__slideInUp">"Bongani is focused and committed to his work. He delivers quality work and works well in a team."</p>
 				<h2>- Zharne Desember, Colleagues</h2>
 			</label>
 			<label class="items" for="t-3">
 				<img src="https://i.postimg.cc/pX8SZbKW/Na-aim.jpg" alt="picture">
-				<p>"One word that describes Bongani is "Confidence" he enjoys solving puzzles which is needed for coding and he has good communication skills an is always eager to learn he understands the importance of deadlines."</p>
+				<p class="animate__animated animate__slideInUp">"One word that describes Bongani is "Confidence" he enjoys solving puzzles which is needed for coding and he has good communication skills an is always eager to learn he understands the importance of deadlines."</p>
 				<h2>- Na-aim Fredricks, Colleagues</h2>
 			</label>
 			<label class="items" for="t-4">
 				<img src="https://i.postimg.cc/c4mRZFS7/kyle.png" alt="picture">
-				<p>"Bongani is a very determined person knowing what he wants and how to get it done ,while also having great communication skills being liked by everyone."</p>
+				<p class="animate__animated animate__slideInUp">"Bongani is a very determined person knowing what he wants and how to get it done ,while also having great communication skills being liked by everyone."</p>
 				<h2>- Kyle Mc Bryne, Colleagues</h2>
 			</label>
 			<label class="items" for="t-5">
 				<img src="https://i.postimg.cc/GhVcBCdb/alex.jpg" alt="picture">
-				<p>"Bongani is a focused person talent who takes pride in his work. He can achieve anything when he sets his mind to it."</p>
+				<p class="animate__animated animate__slideInUp">"Bongani is a focused person talent who takes pride in his work. He can achieve anything when he sets his mind to it."</p>
 				<h2>-Alex Sexwale, Lecturer</h2>
 			</label>
 		</div>

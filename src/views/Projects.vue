@@ -1,6 +1,7 @@
 <template>
  <h1 class="display-2">Projects</h1>
-
+ <hr class="line">
+<br/>
 <div v-if="filteredProject">
  <label>Sort Name:</label>
  <select v-model="name" @change="sortName(name)">
