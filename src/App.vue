@@ -38,7 +38,7 @@
       </ul>
     </div>
   </div>
-</nav> 
+</nav>
   </div>
   <router-view/>
 </template>
@@ -74,3 +74,9 @@ div#navbarNav {
     justify-content: end;
 }
 </style>
+
+<script>
+export default {
+  
+}
+</script>

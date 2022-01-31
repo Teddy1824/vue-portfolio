@@ -12,14 +12,17 @@
           <p>I'm Bongani Nomangola, An aspiring Full-stack developer that is eager to learn and grow in the tech industry. </p>
           </div>
           <div class="text-center pb-4">
-          <button class="btn btn-outline-secondary mx-2">
+          <button class="btn btn-outline-secondary mx-2"><a href="https://www.linkedin.com/in/bongani-nomangola-78b92a223/" class="link">
           <i class="fab fa-linkedin"></i>
+          </a>
           </button>
-          <button class="btn btn-outline-secondary mx-2">
+          <button class="btn btn-outline-secondary mx-2"><a href="https://github.com/Teddy1824" class="link">
           <i class="fab fa-github"></i>
+          </a>
           </button>
-          <button class="btn btn-outline-secondary mx-2">
+          <button class="btn btn-outline-secondary mx-2"><a href="https://codepen.io/teddy1824" class="link">
           <i class="fab fa-codepen"></i>          
+          </a>
           </button>
         </div>
        </div>
@@ -55,4 +58,11 @@ p {
   font-size: larger;
 }
   
+.link {
+  color: gray;
+}
+
+.link:hover {
+  color: white;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <h1>Contact Me</h1>
+  <h1 class="display-2">Contact Me</h1>
 
   <div class="container">
       <hr width="50%" class="pgray">
@@ -9,7 +9,8 @@
   
   <div class="contact-wrapper">
     
-    <form id="contact-form" class="form-horizontal" role="form">
+    <form id="contact-form" class="form-horizontal" role="form" action="https://formspree.io/f/xnqwpppp"
+  method="POST">
        
       <div class="form-group">
         <div class="col-sm-12">
@@ -40,21 +41,21 @@
         <ul class="contact-list">
           <li class="list-item"><i class="fas fa-map-marker-alt fa-2x"><span class="contact-text place">Cape Town, Western Cape</span></i></li>
           
-          <li class="list-item"><i class="fas fa-phone-alt fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          <li class="list-item"><i class="fas fa-phone-alt fa-2x"><span class="contact-text phone"><a href="" title="Give me a call">(212) 555-2368</a></span></i></li>
           
-          <li class="list-item"><i class="fas fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">bearnomangola7@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="fas fa-envelope fa-2x"><span class="contact-text gmail"><a href="" title="Send me an email">bearnomangola7@gmail.com</a></span></i></li>
           
         </ul>
 
         <hr>
         <ul class="social-media-list">
-          <li><a href="#" target="_blank" class="contact-icon">
+          <li><a href="https://github.com/Teddy1824" target="_blank" class="contact-icon">
             <i class="fab fa-github" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
+          <li><a href="https://codepen.io/teddy1824" target="_blank" class="contact-icon">
             <i class="fab fa-codepen" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
+          <li><a href="https://www.linkedin.com/in/bongani-nomangola-78b92a223/" target="_blank" class="contact-icon">
             <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
           </li>
           </ul>

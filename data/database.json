@@ -5,22 +5,6 @@
     {"title":"Temperature Convertor", "id":"3", "img":"https://i.postimg.cc/xjmZdDS9/Screenshot-from-2022-01-26-11-37-05.png", "desc":"", "lang":"", "live":"https://brave-brown-b7c68c.netlify.app", "github":""},
     {"title":"POS Project", "id":"4", "img":"https://i.postimg.cc/FzfNYPm2/Screenshot-from-2022-01-26-11-43-56.png", "desc":"", "lang":"", "live":"https://admiring-archimedes-616e96.netlify.app", "github":""},
     {"title":"Calculator", "id":"5", "img":"https://i.postimg.cc/4y8Hg2Pq/Screenshot-from-2022-01-26-11-37-27.png", "desc":"", "lang":"", "live":"https://bncalculator.netlify.app", "github":""},
-    {"title":"CRUD System", "id":"6", "img":"https://i.postimg.cc/6397gNwt/Screenshot-from-2022-01-26-09-03-05.png", "desc":"", "lang":"", "live":"", "github":""},
-    {"title":"Filtering Through Name", "id":"7", "img":"https://i.postimg.cc/W4sbb6y7/Screenshot-from-2022-01-26-09-03-27.png", "desc":"", "lang":"", "live":"", "github":""},
-    {"title":"Pokemon Fan Page", "id":"8", "img":"https://i.postimg.cc/13kwWTf3/Screenshot-from-2022-01-26-09-01-36.png", "desc":"ke december boss!", "lang":"", "live":"", "github":""}
-  ],
-  
-  "about":[
-    {"name":"Bongani", "surname":"Nomangola", "gender":"Male"},
-    {"first-p":"A dedicated and focused individual who can also display a fun-loving and sociable character.Willing to learn new things and able to communicate with my peers when I'm in need of help,as I do the same for my peers.", "second-p":"A friend of mine that was exposed to computers at a young age.We met in high school and introduced me to IT and the vast branches that are in IT, Coding caught my eye and I started to become interested in Coding."}
-  
-  ],
-
-  "testimonials": [
-    {"name": "Kyle", "surname":"", "occupation": "Coleage", "comment": ""},
-    {"name": "Na-aim", "surname":"", "occupation": "Coleage", "comment": ""},
-    {"name": "Zharne", "surname":"", "occupation": "Coleage", "comment": ""},
-    {"name": "Yusuf", "surname":"", "occupation": "Coleage", "comment": ""},
-    {"name": "Alex", "surname":"", "occupation": "Lecturer", "comment": ""}
+    {"title":"Mercedes Benz Intro page", "id":"5", "img":"https://i.postimg.cc/3NVmbx0t/Screenshot-from-2022-01-31-11-45-40.png", "desc":"", "lang":"", "live":"https://objective-pasteur-77172a.netlify.app/", "github":""}
   ]
 }

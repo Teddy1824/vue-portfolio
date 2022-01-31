@@ -1,6 +1,7 @@
 <template>
- <h1>Projects</h1>
+ <h1 class="display-2">Projects</h1>
 
+<div v-if="filteredProject">
  <label>Sort Name:</label>
  <select v-model="name" @change="sortName(name)">
      <option value="select">-Select-</option>
@@ -23,6 +24,7 @@
      <option value="vue">Vue</option>
  </select>
  <br/>
+</div>
 
  <div class="project-container" v-if="projects.length">
 <div v-for="project in projects" :key="project.id" class="project">
@@ -61,6 +63,11 @@ export default {
       .then(res => res.json())
       .then(data => this.projects = data)
       .catch(err => console.log(err.message))
+  },
+  methods: {
+      sortName(name) {
+          this.filteredProject = this.filteredProject.sort((a, b) => a - b);
+      }
   },
 }
 </script>
