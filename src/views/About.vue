@@ -9,7 +9,7 @@
     </div>
     <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
       <div class="row about-list">
-                  <div class="col-md-12">
+                  <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12">
                       <div class="media">
                           <label>Birthday</label>
                           <p>24th February 2001</p>
