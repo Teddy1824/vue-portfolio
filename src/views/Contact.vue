@@ -41,7 +41,7 @@
         <ul class="contact-list">
           <li class="list-item"><i class="fas fa-map-marker-alt fa-2x"><span class="contact-text place">Cape Town, Western Cape</span></i></li>
           
-          <li class="list-item"><i class="fas fa-phone-alt fa-2x"><span class="contact-text phone"><a href="" title="Give me a call">(212) 555-2368</a></span></i></li>
+          <li class="list-item"><i class="fas fa-phone-alt fa-2x"><span class="contact-text phone"><a href="" title="Give me a call">(081) 724-5057</a></span></i></li>
           
           <li class="list-item"><i class="fas fa-envelope fa-2x"><span class="contact-text gmail"><a href="" title="Send me an email">bearnomangola7@gmail.com</a></span></i></li>
           
@@ -49,7 +49,8 @@
 
         <hr>
         <ul class="social-media-list">
-          <li><a href="https://github.com/Teddy1824" target="_blank" class="contact-icon">
+          <li>
+            <a href="https://github.com/Teddy1824" target="_blank" class="contact-icon">
             <i class="fab fa-github" aria-hidden="true"></i></a>
           </li>
           <li><a href="https://codepen.io/teddy1824" target="_blank" class="contact-icon">

@@ -9,11 +9,11 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link to="/">Home</router-link> |
+          <router-link to="/">Home</router-link>
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/about">About</router-link> |
+          <router-link to="/about">About</router-link>
         </li>
         <br/>
         <!-- <li class="nav-item">
@@ -21,15 +21,15 @@
         </li>
         <br/> -->
         <li class="nav-item">
-          <router-link to="/projects">Projects</router-link> |
+          <router-link to="/projects">Projects</router-link>
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/skills">Skills</router-link> |   
+          <router-link to="/skills">Skills</router-link>   
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/testimonials">Testimonials</router-link> |   
+          <router-link to="/testimonials">Testimonials</router-link>   
         </li>
         <br/>
         <li class="nav-item">
@@ -73,6 +73,55 @@ li.nav-item {
 div#navbarNav {
     justify-content: end;
 }
+
+.nav-item {
+  color: #83818c;
+  padding: 20px;
+  text-decoration: none;
+  transition: .3s;
+  margin: 0 6px;
+  z-index: 1;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  position: relative;
+  
+}
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #dfe2ea;
+    border-radius: 8px 8px 0 0;
+    opacity: 0;
+    transition: .3s;
+  }
+
+.nav-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+.nav-item:not(.is-active):hover { color: #333; }
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  transition: .4s;
+  height: 5px;
+  z-index: 1;
+  border-radius: 8px 8px 0 0;
+}
+
+@media (max-width: 580px) {
+  .nav { overflow: auto; }
+}
+
 </style>
 
 <script>
