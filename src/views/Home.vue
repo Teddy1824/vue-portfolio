@@ -3,10 +3,10 @@
      <div class="pt-5 p-st bg-white">
       <div data-aos="fade" data-aos-once="true" data-aos-duration="1000" class="container aos-init aos-animate">
        <div class="row align-items-center">
-          <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+          <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12 text-center">
           <img class="home-img" src="../assets/Bongani.jpg">
           </div>
-          <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+          <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12 pt-5">
           <span class="home-title pgray"><h2 class="animate__animated animate__zoomIn">Welcome to my portfolio!</h2></span>
           <div>
           <p>I'm Bongani Nomangola, An aspiring Full-stack developer that is eager to learn and grow in the tech industry. </p>
