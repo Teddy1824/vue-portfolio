@@ -379,5 +379,6 @@ hr.hrabout {
 
 .col-xl-6 {
   width: 45%;
+  margin-left: 200px;
 }
 </style>
