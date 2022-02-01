@@ -40,10 +40,15 @@
   </div>
 </nav>
   </div>
+  <transition name="router-animation">
+  
   <router-view/>
+
+  </transition>
 </template>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -122,6 +127,36 @@ div#navbarNav {
   .nav { overflow: auto; }
 }
 
+.router-animation-enter-active {
+  animation: coming 1s;
+  animation-delay: .1s;
+  opacity: 0;
+}
+
+.router-animation-leave-active {
+  animation: going 1s;
+}
+
+@keyframes going {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}
+
+@keyframes coming {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 </style>
 
 <script>

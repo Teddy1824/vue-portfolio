@@ -168,7 +168,7 @@ textarea {
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: black;
 }
 
 .place {
@@ -184,7 +184,7 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: black;
   text-decoration: none;
   transition-duration: 0.2s;
 }

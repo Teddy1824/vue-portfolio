@@ -12,22 +12,22 @@
 			<label class="items" for="t-1">
 				<img src="https://cdn.discordapp.com/attachments/897126668349628487/937690951592321074/20191123_151649.jpg" alt="picture" class="lili">
 				<p class="animate__animated animate__slideInUp">"Bongani is dedicated,committed and focused in whatever he puts his mind to."</p>
-				<h2>- Yusuf Boltman, Colleagues</h2>
+				<h2>- Lilitha Ngele, Colleague</h2>
 			</label>
 			<label class="items" for="t-2">
 				<img src="https://i.postimg.cc/J4m0rmrv/zharne.jpg" alt="picture">
 				<p class="animate__animated animate__slideInUp">"Bongani is focused and committed to his work. He delivers quality work and works well in a team."</p>
-				<h2>- Zharne Desember, Colleagues</h2>
+				<h2>- Zharne Desember, Colleague</h2>
 			</label>
 			<label class="items" for="t-3">
 				<img src="https://i.postimg.cc/pX8SZbKW/Na-aim.jpg" alt="picture">
 				<p class="animate__animated animate__slideInUp">"One word that describes Bongani is "Confidence" he enjoys solving puzzles which is needed for coding and he has good communication skills an is always eager to learn he understands the importance of deadlines."</p>
-				<h2>- Na-aim Fredricks, Colleagues</h2>
+				<h2>- Na-aim Fredricks, Colleague</h2>
 			</label>
 			<label class="items" for="t-4">
 				<img src="https://i.postimg.cc/c4mRZFS7/kyle.png" alt="picture">
 				<p class="animate__animated animate__slideInUp">"Bongani is a very determined person knowing what he wants and how to get it done ,while also having great communication skills being liked by everyone."</p>
-				<h2>- Kyle Mc Bryne, Colleagues</h2>
+				<h2>- Kyle Mc Bryne, Colleague</h2>
 			</label>
 			<label class="items" for="t-5">
 				<img src="https://i.postimg.cc/GhVcBCdb/alex.jpg" alt="picture">

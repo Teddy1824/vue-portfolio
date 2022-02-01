@@ -3,19 +3,62 @@
 <hr class="line">
   <div class="w3-content w3-container w3-padding-64" id="about">
 <div class="row align-items-center">
-    <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+    <div class="col-xl-6 col-bg-12 col-md-12 col-sm-12 pt-5">
       <p class="animate__animated animate__slideInUp">A dedicated and focused individual who can also display a fun-loving and sociable character.Willing to learn new things and able to communicate with my peers when I'm in need of help,as I do the same for my peers.</p>
 <p class="animate__animated animate__slideInUp">A friend of mine that was exposed to computers at a young age.We met in high school and introduced me to IT and the vast branches that are in IT, Coding caught my eye and I started to become interested in Coding.</p>
     </div>
     <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-      <img src="https://cdn.discordapp.com/attachments/895311040068325407/897122083203612692/IMG-20211011-WA0013.jpg" id="profile" class="w3-circle" alt="Photo of Me" height="600px">
+      <div class="row about-list">
+                  <div class="col-md-12">
+                      <div class="media">
+                          <label>Birthday</label>
+                          <p>24th February 2001</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Age</label>
+                          <p>21 years</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Residence</label>
+                          <p>South Africa</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Address</label>
+                          <p>Cape Town, RSA</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Freelance</label>
+                          <p>Available</p>
+                      </div>
+                  </div>
+                  <!-- <div class="col-md-6">
+                      <div class="media">
+                          <label>E-mail</label>
+                          <p>info@domain.com</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Phone</label>
+                          <p>820-885-3321</p>
+                      </div>
+                      <hr class="hrabout">
+                      <div class="media">
+                          <label>Skype</label>
+                          <p>skype.0404</p>
+                      </div>
+                  </div> -->
+              </div>
+          </div>
+      </div>
     </div>
-  </div>
-  </div>
 <hr class="line w-50% text-center">
   <div class="container">
     <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
+        <h1 class="display-3">Timeline</h1>
     </div>
     <ul class="timeline">
         <li>
@@ -150,8 +193,40 @@
   display: table;
 }
 .timeline > li:after {
-  clear: both;
+  padding-top: 10px;
 }
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
@@ -250,5 +325,51 @@
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 30px;
+  }
+}
+
+hr.hrabout {
+    display: -webkit-inline-box;
+    width: 130px;
 }
 </style>

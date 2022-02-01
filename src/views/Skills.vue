@@ -1,5 +1,5 @@
 <template>
-  <h1>Skills</h1>
+  <h1 class="display-2">Skills</h1>
   <div class="p-st bg-white" id="skills">
     <div class="container py-4">
       <div class="text-center">
