@@ -373,7 +373,11 @@ hr.hrabout {
     width: 130px;
 }
 
-.col-md-12 {
-    text-align: center;
+.row {
+  justify-content: center;
+}
+
+.col-xl-6 {
+  width: 45%;
 }
 </style>
