@@ -3,13 +3,13 @@
 <hr class="line">
   <div class="w3-content w3-container w3-padding-64" id="about">
 <div class="row align-items-center">
-    <div class="col-xl-6 col-bg-12 col-md-12 col-sm-12 pt-5">
+    <div class="col-xl-6 col-bg-12 col-md-12 col-sm-12 text-center">
       <p class="animate__animated animate__slideInUp">A dedicated and focused individual who can also display a fun-loving and sociable character.Willing to learn new things and able to communicate with my peers when I'm in need of help,as I do the same for my peers.</p>
 <p class="animate__animated animate__slideInUp">A friend of mine that was exposed to computers at a young age.We met in high school and introduced me to IT and the vast branches that are in IT, Coding caught my eye and I started to become interested in Coding.</p>
     </div>
-    <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+    <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
       <div class="row about-list">
-                  <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12">
+                  <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12 text-center">
                       <div class="media">
                           <label>Birthday</label>
                           <p>24th February 2001</p>
@@ -371,5 +371,9 @@
 hr.hrabout {
     display: -webkit-inline-box;
     width: 130px;
+}
+
+.col-md-12 {
+    text-align: center;
 }
 </style>
