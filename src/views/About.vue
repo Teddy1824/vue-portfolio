@@ -58,7 +58,7 @@
 <hr class="line w-50% text-center">
   <div class="container">
     <div class="page-header">
-        <h1 class="display-3">Timeline</h1>
+        <h1 class="display-3">Resume</h1>
     </div>
     <ul class="timeline">
         <li>
@@ -375,10 +375,11 @@ hr.hrabout {
 
 .row {
   justify-content: center;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-left: 60px;
 }
-
 .col-xl-6 {
   width: 45%;
-  margin-left: 200px;
 }
 </style>
