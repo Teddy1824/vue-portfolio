@@ -94,4 +94,10 @@ hr.line2 {
     display: inline-grid;
     justify-content: space-evenly;
 }
+
+.col-xl-4.col-bg-4.col-md-4.col-sm-12.text-center.pb-5.px-4 {
+    flex-wrap: wrap;
+    display: inline-grid;
+    justify-content: space-evenly;
+}
 </style>

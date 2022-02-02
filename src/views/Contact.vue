@@ -82,6 +82,8 @@ export default {
 }
 .container {
   text-align: center;
+  flex-wrap: wrap;
+  display: inline-grid;
 }
 
  #contact {
@@ -103,6 +105,7 @@ export default {
   padding: 20px;
   position: relative;
   max-width: 840px;
+  flex-wrap: wrap;
 }
 
 /* Left contact page */
@@ -157,6 +160,7 @@ textarea {
   list-style-type: none;
   margin-left: -30px;
   padding-right: 20px;
+  display: inline;
 }
 
 .list-item {
