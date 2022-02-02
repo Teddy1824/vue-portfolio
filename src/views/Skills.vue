@@ -1,10 +1,10 @@
 <template>
   <h1 class="display-2">Skills</h1>
+        <hr class="line">
   <div class="p-st bg-white" id="skills">
     <div class="container py-4">
       <div class="text-center">
         </div>
-        <hr class="line">
         <br>
         <div class="row">
           <div class="col-xl-4 col-bg-4 col-md-4 col-sm-12 text-center pb-5 px-4">

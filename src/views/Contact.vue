@@ -1,8 +1,8 @@
 <template>
   <h1 class="display-2">Contact Me</h1>
 
+      <hr class="line">
   <div class="container">
-      <hr width="50%" class="pgray">
       <br/>
 
   <div id="contact">
@@ -76,9 +76,9 @@ export default {
 </script>
 
 <style>
-.pgray {
-  flex-wrap: wrap;
-  display: inline-grid;
+.line {
+    display: -webkit-inline-box;
+    width: 500px;
 }
 .container {
   text-align: center;
