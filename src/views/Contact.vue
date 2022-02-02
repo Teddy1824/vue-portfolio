@@ -80,11 +80,6 @@ export default {
     display: -webkit-inline-box;
     width: 500px;
 }
-.container {
-  text-align: center;
-  flex-wrap: wrap;
-  display: inline-grid;
-}
 
  #contact {
   width: 100%;
