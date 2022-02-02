@@ -2,7 +2,7 @@
     <div class="parent">
      <div class="pt-5 p-st bg-white">
       <div data-aos="fade" data-aos-once="true" data-aos-duration="1000" class="container aos-init aos-animate">
-       <div class="row align-items-center">
+       <div class="row align-items-center" id="slide">
           <div class="col-lg-6 text-center">
           <img class="home-img" src="../assets/Bongani.jpg">
           </div>
@@ -72,8 +72,13 @@ p {
   color: white;
 }
 
-.row {
-  --bs-gutter-x: 8.5rem;
+#slide {
+    --bs-gutter-x: 8.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
-
 </style>
