@@ -72,4 +72,8 @@ p {
   color: white;
 }
 
+.row {
+  --bs-gutter-x: 8.5rem;
+}
+
 </style>
