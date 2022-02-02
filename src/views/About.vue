@@ -56,7 +56,7 @@
       </div>
     </div>
 <hr class="line w-50% text-center">
-  <div class="container">
+  <div class="container2">
     <div class="page-header">
         <h1 class="display-3">Resume</h1>
     </div>
@@ -162,6 +162,11 @@
 </script>
 
 <style>
+.container2 {
+  text-align: center;
+  justify-content: center;
+}
+
 .line {
     display: -webkit-inline-box;
     border-color: rgba(255,255,255,.6);
