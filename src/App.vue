@@ -13,7 +13,7 @@
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/about">About</router-link>
+          <router-link to="/about" @click="collapse">About</router-link>
         </li>
         <br/>
         <!-- <li class="nav-item">
@@ -21,19 +21,19 @@
         </li>
         <br/> -->
         <li class="nav-item">
-          <router-link to="/projects">Projects</router-link>
+          <router-link to="/projects" @click="collapse">Projects</router-link>
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/skills">Skills</router-link>   
+          <router-link to="/skills" @click="collapse">Skills</router-link>   
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/testimonials">Testimonials</router-link>   
+          <router-link to="/testimonials" @click="collapse">Testimonials</router-link>   
         </li>
         <br/>
         <li class="nav-item">
-          <router-link to="/contact">Contact</router-link>
+          <router-link to="/contact" @click="collapse">Contact</router-link>
         </li>
       </ul>
     </div>
@@ -161,6 +161,14 @@ div#navbarNav {
 
 <script>
 export default {
-  
+ methods: {
+     collapse(){
+    let navcollapse = document.getElementsByClassName("collapse")[0]
+
+    navcollapse.classList.toggle("show")
+}
+
+
+ },
 }
 </script>
