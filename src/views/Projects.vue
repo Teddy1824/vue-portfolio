@@ -9,7 +9,7 @@
   <img :src="project.img" class="card-img-top" alt="...">
   <div class="card-body">
      <h2>{{ project.title }}</h2>
-    <p class="card-text">{{ project.desc }}</p>
+    <p class="card-text">{{ project.lang }}</p>
   </div>
   <div class="card-body">
     <button type="button" class="btn btn-outline-primary"><a :href="project.live" class="card-link">Live</a></button>
