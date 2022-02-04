@@ -170,7 +170,7 @@
 .line {
     display: -webkit-inline-box;
     border-color: rgba(255,255,255,.6);
-    width: 700px;
+    width: 45%;
 }
 
 .timeline {
