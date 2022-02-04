@@ -78,7 +78,7 @@ body {
 
 hr.line2 {
     display: -webkit-inline-box;
-    width: 350px;
+    
 }
 
 #skills {
