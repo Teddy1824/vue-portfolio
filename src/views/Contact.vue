@@ -238,61 +238,6 @@ textarea {
 .social-icon a :hover {
   color: white;
 }
-/* Social Media Icons */
-/* .social-media-list {
-  position: relative;
-  font-size: 22px;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.social-media-list li a {
-  color: #fff;
-}
-
-.social-media-list li {
-  position: relative; 
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  margin: 10px 3px;
-  line-height: 60px;
-  border-radius: 50%;
-  color: #fff;
-  background-color: #b3b3cc;
-  cursor: pointer; 
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:hover {
-  background-color: lightgray; 
-}
-
-.social-media-list li:hover:after {
-  opacity: 1;  
-  transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-}
-
-.social-media-list li:hover a {
-  color: #000;
-} */
 
 .copyright {
   font: 200 14px 'Oswald', sans-serif;
@@ -336,6 +281,7 @@ hr {
   .direct-contact-container, .form-wrapper {
     float: none;
     margin: 0 auto;
+    width: 100%;
   }  
   .form-control, textarea {
     
@@ -344,7 +290,7 @@ hr {
  
   
   .name, .email, textarea {
-    width: 280px;
+    width: 50%;
   } 
   
   .direct-contact-container {
