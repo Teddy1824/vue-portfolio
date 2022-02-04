@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link to="/">Home</router-link>
+          <router-link to="/" @click="collapse">Home</router-link>
         </li>
         <br/>
         <li class="nav-item">
