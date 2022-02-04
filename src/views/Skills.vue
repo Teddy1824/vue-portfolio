@@ -73,7 +73,7 @@ body {
 
 .line {
   display: -webkit-inline-box;
-  width: 500px;
+  width: 45%;
 }
 
 hr.line2 {

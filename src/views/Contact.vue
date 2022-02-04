@@ -78,7 +78,7 @@ export default {
 <style>
 .line {
     display: -webkit-inline-box;
-    width: 500px;
+    width: 45%;
 }
 
  #contact {
