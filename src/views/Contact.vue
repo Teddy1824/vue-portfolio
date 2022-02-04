@@ -39,11 +39,11 @@
      <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item"><i class="fas fa-map-marker-alt fa-2x"><span class="contact-text place">Cape Town, Western Cape</span></i></li>
+          <li class="list-item"><i class="fas fa-map-marker-alt fa-2x"></i><span class="contact-text place">Cape Town, Western Cape</span></li>
           
-          <li class="list-item"><i class="fas fa-phone-alt fa-2x"><span class="contact-text phone"><a href="" title="Give me a call">(081) 724-5057</a></span></i></li>
+          <li class="list-item"><i class="fas fa-phone-alt fa-2x"></i><span class="contact-text phone"><a href="" title="Give me a call">(081) 724-5057</a></span></li>
           
-          <li class="list-item"><i class="fas fa-envelope fa-2x"><span class="contact-text gmail"><a href="" title="Send me an email">bearnomangola7@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="fas fa-envelope fa-2x"></i><span class="contact-text gmail"><a href="" title="Send me an email">bearnomangola7@gmail.com</a></span></li>
           
         </ul>
 
@@ -101,6 +101,7 @@ export default {
   position: relative;
   max-width: 100%;
   flex-wrap: wrap;
+  width: 80%;
 }
 
 /* Left contact page */
@@ -296,6 +297,7 @@ hr {
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
+    width: 100%;
   }  
   .social-media-list {
     left: 0;
@@ -316,7 +318,7 @@ hr {
 
 @media screen and (max-width: 410px) {
   .send-button {
-    width: 99%;
+    width: 100%;
   }
 }
 </style>

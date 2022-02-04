@@ -49,10 +49,10 @@ export default {
   flex-wrap: wrap;
 }
 .home-img {
-  width: 528px;
-  height: 498px;
-  max-width: 800px;
-  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin-top: 80px;
   transform: rotateY(180deg);
   vertical-align: middle;
