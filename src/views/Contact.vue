@@ -290,7 +290,7 @@ hr {
  
   
   .name, .email, textarea {
-    width: 50%;
+    width: 100%;
   } 
   
   .direct-contact-container {
