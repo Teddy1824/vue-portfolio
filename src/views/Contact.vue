@@ -99,21 +99,21 @@ export default {
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  max-width: 840px;
+  max-width: 100%;
   flex-wrap: wrap;
 }
 
 /* Left contact page */
 .form-horizontal {
   /*float: left;*/
-  max-width: 400px;
+  max-width: 100%;
   font-family: 'Lato';
   font-weight: 400;
 }
 
 .form-control, 
 textarea {
-  max-width: 400px;
+  max-width: 100%;
   background-color: #b3b3cc;
   color: #101010;
   letter-spacing: 1px;
