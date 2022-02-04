@@ -60,6 +60,10 @@ export default {
   border-radius: 10px;
 }
 
+.col-lg-6.pt-5 {
+    width: 100%;
+}
+
 p {
   font-size: larger;
 }
