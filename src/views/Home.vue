@@ -2,7 +2,7 @@
     <div class="parent">
      <div class="pt-5 p-st bg-white">
       <div data-aos="fade" data-aos-once="true" data-aos-duration="1000" class="container aos-init aos-animate">
-       <div class="row align-items-center" id="slide">
+       <div class="row align-items-center justify-content-center" id="slide">
           <div class="col-lg-6 text-center">
           <img class="home-img" src="../assets/Bongani.jpg">
           </div>
