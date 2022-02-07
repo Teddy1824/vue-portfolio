@@ -16,11 +16,6 @@
                       </div>
                       <hr class="hrabout">
                       <div class="media">
-                          <label>Age</label>
-                          <p>21 years</p>
-                      </div>
-                      <hr class="hrabout">
-                      <div class="media">
                           <label>Residence</label>
                           <p>South Africa</p>
                       </div>
