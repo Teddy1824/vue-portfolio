@@ -30,22 +30,6 @@
                           <p>Available</p>
                       </div>
                   </div>
-                  <!-- <div class="col-md-6">
-                      <div class="media">
-                          <label>E-mail</label>
-                          <p>info@domain.com</p>
-                      </div>
-                      <hr class="hrabout">
-                      <div class="media">
-                          <label>Phone</label>
-                          <p>820-885-3321</p>
-                      </div>
-                      <hr class="hrabout">
-                      <div class="media">
-                          <label>Skype</label>
-                          <p>skype.0404</p>
-                      </div>
-                  </div> -->
               </div>
           </div>
       </div>
@@ -206,21 +190,17 @@
   position: relative;
 }
 .about-list label:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 11px;
-  width: 1px;
-  height: 12px;
-  background: #20247b;
-  -moz-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  margin: auto;
-  opacity: 0.5;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 11px;
+    width: 1px;
+    height: 12px;
+    /* background: #20247b; */
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 0.5;
 }
 .about-list p {
   margin: 0;

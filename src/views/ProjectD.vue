@@ -1,5 +1,6 @@
 <template>
   <div v-if="project">
+      <h2>{{ project.id}}</h2>
       <h1>{{ project.title }}</h1>
       <p>{{ project.desc }}</p>
   </div>

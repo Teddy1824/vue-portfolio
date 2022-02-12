@@ -3,32 +3,30 @@
 
       <hr class="line">
   <div class="container">
-      <br/>
-
+  
   <div id="contact">
   
   <div class="contact-wrapper">
     
-    <form id="contact-form" class="form-horizontal" role="form" action="https://formspree.io/f/xnqwpppp"
-  method="POST">
+    <form id="contact-form" class="form-horizontal" @submit.prevent="handleSubmit">
        
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" required v-model="text">
         </div>
       </div>
 <br/>
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" required v-model="email">
         </div>
       </div>
 <br/>
-      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required v-model="textarea"></textarea>
       <br/>
       <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
         <div class="alt-send-button">
-          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND!</span>
         </div>
       
       </button>
@@ -67,12 +65,48 @@
   </div>
      </div>
      </div>
+     
+     <!-- <p>Name: {{ text }}</p>
+     <p>Email: {{ email }}</p>
+     <p>Message: {{ textarea }}</p> -->
 </template>
 
 <script>
 export default {
+   data() {
+     return {
+       text: '',
+       email: '',
+       textarea: ''
+     }
+   },
+   methods: {
+     handleSubmit() {
+       console.log(this.email, this.text, this.textarea),
 
+       fetch('https://nodejs-project-testimonial-api.herokuapp.com/contact', {
+  method: 'POST',
+  body: JSON.stringify({
+    name: this.name,
+    email: this.email,
+    textarea: this.textarea,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => {
+    alert(json.msg)
+    this.text = '',
+    this.email = '',
+    this.textarea = ''
+    })
+  .catch((e) => alert(e.msg));
+     }
+   },
 }
+
 </script>
 
 <style>

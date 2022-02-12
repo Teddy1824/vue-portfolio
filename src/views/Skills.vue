@@ -83,6 +83,7 @@ hr.line2 {
 
 #skills {
   font-size: x-large;
+  margin-top: -45px;
 }
 
 #icons {
