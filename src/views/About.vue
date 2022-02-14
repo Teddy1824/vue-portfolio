@@ -357,7 +357,7 @@ hr.hrabout {
   justify-content: center;
   flex-wrap: nowrap;
   display: flex;
-  margin-left: 60px;
+  margin-left: 130px;
 }
 .col-xl-6 {
   width: 45%;
