@@ -66,8 +66,12 @@ export default {
 }
 
 .col-lg-6 {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     width: 45%;
+    flex-wrap: wrap;
+    display: initial;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .testimonial-inner {

@@ -41,66 +41,6 @@
     </div>
     <ul class="timeline">
         <li>
-          <div class="timeline-badge"><i class="fas fa-book"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Hyacinth Primary School (Lenteguer)</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(2014)</small></p>
-            </div>
-            <div class="timeline-body">
-              <p class="animate__animated animate__slideInUp">Graduated from Hyacinth Primary School</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="fas fa-book"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Athlone High School (grade 12)</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(early Feb 2019)</small></p>
-            </div>
-            <div class="timeline-body">
-              <p class="animate__animated animate__slideInUp">Changed schools due to the school deciding to remove one the main subjects I did which was Physical Sciences.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge danger"><i class="fas fa-book"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Bridgetown High School (grade 12)</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(Nov 2019)</small></p>
-            </div>
-            <div class="timeline-body">
-              <p class="animate__animated animate__slideInUp">Graduated the a Diploma Certificate.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge muted"><i class="fas fa-store"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Haagen Dazs (Waterfront)</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(Dec 2019 - Jan 2020)</small></p>
-            </div>
-            <div class="timeline-body">
-              <p class="animate__animated animate__slideInUp">Worked at Haagen Dazs as an Ice Cream Scooper for a duration of a month.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="fas fa-laptop"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">iCollege</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(March 2020)</small></p>
-            </div>
-            <div class="timeline-body">
-              <p class="animate__animated animate__slideInUp">Enroled at iCollege doing IT User Support for a duration of a year.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
           <div class="timeline-badge success"><i class="fas fa-laptop"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -120,14 +60,74 @@
             </div>
           </div>
         </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="fas fa-laptop"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">iCollege</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(March 2020)</small></p>
+            </div>
+            <div class="timeline-body">
+              <p class="animate__animated animate__slideInUp">Enroled at iCollege doing IT User Support for a duration of a year.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge muted"><i class="fas fa-store"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Haagen Dazs (Waterfront)</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(Dec 2019 - Jan 2020)</small></p>
+            </div>
+            <div class="timeline-body">
+              <p class="animate__animated animate__slideInUp">Worked at Haagen Dazs as an Ice Cream Scooper for a duration of a month.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge danger"><i class="fas fa-book"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Bridgetown High School (grade 12)</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(Nov 2019)</small></p>
+            </div>
+            <div class="timeline-body">
+              <p class="animate__animated animate__slideInUp">Graduated the a Diploma Certificate.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+    <div class="timeline-badge warning"><i class="fas fa-book"></i></div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">Athlone High School (grade 12)</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(early Feb 2019)</small></p>
+      </div>
+      <div class="timeline-body">
+        <p class="animate__animated animate__slideInUp">Changed schools due to the school deciding to remove one the main subjects I did which was Physical Sciences.</p>
+      </div>
+    </div>
+        </li>
+        <li class="timeline-inverted">
+    <div class="timeline-badge"><i class="fas fa-book"></i></div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">Hyacinth Primary School (Lenteguer)</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>(2014)</small></p>
+      </div>
+      <div class="timeline-body">
+        <p class="animate__animated animate__slideInUp">Graduated from Hyacinth Primary School</p>
+      </div>
+    </div>
+        </li>
     </ul>
 </div>
 </template>
 <script>
   export default {
-  data() {
+    data() {
       return {
-          about: []
+        about: []
       }
   },
   mounted() {

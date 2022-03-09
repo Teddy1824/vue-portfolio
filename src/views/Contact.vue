@@ -166,6 +166,8 @@ textarea {
   width: 400px;
   height: 34px;
   transition: all .2s ease-in-out;
+  flex-wrap: wrap;
+  display: inline;
 }
 
 .send-text {
@@ -220,6 +222,8 @@ textarea {
   color: black;
   text-decoration: none;
   transition-duration: 0.2s;
+  flex-wrap: wrap;
+  display: inline-flex;
 }
 
 .contact-text a:hover {

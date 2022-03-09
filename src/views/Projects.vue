@@ -16,8 +16,8 @@
 
  </router-link>
  <div class="card-body">
-    <a :href="project.live" type="button" class="btn btn-outline-primary card-link">Live</a>
-    <button type="button" class="btn btn-outline-primary"><a :href="project.github" class="card-link">Github</a></button>
+    <a :href="project.live" type="button" class="btn btn-outline-primary card-link" target="_blank">Live</a>
+    <button type="button" class="btn btn-outline-primary" target="_blank"><a :href="project.github" class="card-link">Github</a></button>
   </div>
   </div>
 </div>
