@@ -1,7 +1,7 @@
 <template>
   <h1 class="display-2">Skills</h1>
         <hr class="line">
-  <div class="p-st bg-white" id="skills">
+  <div class="p-st" id="skills">
     <div class="container py-4">
       <div class="text-center">
         </div>
@@ -81,9 +81,14 @@ hr.line2 {
     
 }
 
+.container.py-4 {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+    background-color: white;
+}
+
 #skills {
   font-size: x-large;
-  margin-top: -45px;
+  /* margin-top: -45px; */
 }
 
 #icons {

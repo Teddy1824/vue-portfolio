@@ -56,15 +56,25 @@
   text-align: center;
   color: #2c3e50;
   overflow-x: hidden;
+  background-color: #e5e4e2;
+  height: 61rem;
 }
 
-#nav {
-  padding: 30px;
+.bg-light {
+    background-color: #f8f9fa!important;
+    border-bottom-right-radius: 8%;
+    border-bottom-left-radius: 8%;
 }
+
+/* #nav {
+  padding: 30px;
+} */
 
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
 }
 
 #nav a.router-link-exact-active {

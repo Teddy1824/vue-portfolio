@@ -141,6 +141,10 @@
 </script>
 
 <style>
+.display-2 {
+  font-family: 'Baloo 2', cursive;
+}
+
 .container2 {
   text-align: center;
   justify-content: center;
@@ -224,6 +228,7 @@
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color: #fff;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;

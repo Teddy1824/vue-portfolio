@@ -1,13 +1,13 @@
 <template>
     <div class="parent">
-     <div class="pt-5 p-st bg-white">
+     <div class="pt-5 p-st">
       <div data-aos="fade" data-aos-once="true" data-aos-duration="1000" class="container aos-init aos-animate">
        <div class="row align-items-center justify-content-center" id="slide">
           <div class="col-lg-6 text-center">
           <img class="home-img" src="../assets/Bongani.jpg">
           </div>
           <div class="col-lg-6 pt-5">
-          <span class="home-title pgray"><h2 class="animate__animated animate__zoomIn">Welcome to my portfolio!</h2></span>
+          <span class="home-title pgray"><h2 class="trying animate__animated animate__zoomIn">Welcome to my portfolio!</h2></span>
           <div>
           <p>I'm Bongani Nomangola, An aspiring Full-stack developer.</p>
           </div>
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style>
+.trying {
+    font-family: 'DM Sans', sans-serif;
+}
 
 .parent{
   display: flex;
@@ -66,6 +69,10 @@ export default {
     text-align: center;
 }
 
+h2.animate__animated.animate__zoomIn {
+    font-family: 'DM Sans', sans-serif;
+}
+
 p {
   font-size: larger;
 }
@@ -75,7 +82,7 @@ p {
 }
 
 .link:hover {
-  color: white;
+  color: gray;
 }
 
 #slide {
@@ -86,5 +93,6 @@ p {
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin-top: 20px;
 }
 </style>
