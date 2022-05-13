@@ -145,6 +145,10 @@
   font-family: 'Baloo 2', cursive;
 }
 
+.display-3 {
+  font-family: 'Baloo 2', cursive;
+}
+
 .container2 {
   text-align: center;
   justify-content: center;
