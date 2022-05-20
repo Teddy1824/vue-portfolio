@@ -367,16 +367,16 @@ hr.hrabout {
 .straight {
     display: flex;
     text-align: center;
-    margin-right: 42rem;
+    margin-right: 35rem;
     justify-content: center;
     justify-content: space-between;
 }
 
 .row2 {
-  justify-content: center;
+  justify-content: center;  
   flex-wrap: nowrap;
   /* display: flex; */
-  margin-left: 42rem;
+  margin-left: 32.5rem;
   text-align: center;
 }
 .col-xl-6 {
