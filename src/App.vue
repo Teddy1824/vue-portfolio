@@ -58,7 +58,7 @@
   overflow-x: hidden;
   /* overflow-y: hidden; */
   background-color: #e5e4e2;
-  height: 48.5rem;
+  height: 61rem;
 }
 
 .bg-light {
