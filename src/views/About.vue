@@ -7,24 +7,25 @@
       <p class="animate__animated animate__slideInUp">A dedicated and focused individual who can also display a fun-loving and sociable character.Willing to learn new things and able to communicate with my peers when I'm in need of help,as I do the same for my peers.</p>
 <p class="animate__animated animate__slideInUp">A friend of mine that was exposed to computers at a young age.We met in high school and introduced me to IT and the vast branches that are in IT, Coding caught my eye and I started to become interested in Coding.</p>
     </div>
-    <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+
+    <div>
       <div class="row about-list">
-                  <div class="col-xl-6 col-bg-6 col-md-12 col-sm-12 text-center">
+                  <div class="straight">
                       <div class="media">
                           <label>Birthday</label>
                           <p>24th February 2001</p>
                       </div>
-                      <hr class="hrabout">
+                      
                       <div class="media">
                           <label>Residence</label>
                           <p>South Africa</p>
                       </div>
-                      <hr class="hrabout">
+                      
                       <div class="media">
                           <label>Address</label>
                           <p>Cape Town, RSA</p>
                       </div>
-                      <hr class="hrabout">
+                      
                       <div class="media">
                           <label>Freelance</label>
                           <p>Available</p>
@@ -361,6 +362,14 @@
 hr.hrabout {
     display: -webkit-inline-box;
     width: 130px;
+}
+
+.straight {
+    display: flex;
+    text-align: center;
+    margin-right: 22rem;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 .row2 {
