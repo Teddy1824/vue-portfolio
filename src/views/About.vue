@@ -367,7 +367,7 @@ hr.hrabout {
 .straight {
     display: flex;
     text-align: center;
-    margin-right: 22rem;
+    margin-right: 42rem;
     justify-content: center;
     justify-content: space-between;
 }
