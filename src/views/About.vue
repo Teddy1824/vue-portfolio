@@ -367,7 +367,7 @@ hr.hrabout {
 .straight {
     display: flex;
     text-align: center;
-    margin-right: 35rem;
+    margin-right: 36rem;
     /* justify-content: center; */
     justify-content: space-between;
     margin-top: 15px;
@@ -377,7 +377,7 @@ hr.hrabout {
   justify-content: center;  
   flex-wrap: nowrap;
   /* display: flex; */
-  margin-left: 32.5rem;
+  margin-left: 33.5rem;
   text-align: center;
 }
 .col-xl-6 {
