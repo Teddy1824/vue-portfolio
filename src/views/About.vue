@@ -368,8 +368,9 @@ hr.hrabout {
     display: flex;
     text-align: center;
     margin-right: 35rem;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .row2 {
