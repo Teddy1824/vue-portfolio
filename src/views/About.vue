@@ -367,7 +367,7 @@ hr.hrabout {
   justify-content: center;
   flex-wrap: nowrap;
   /* display: flex; */
-  margin-left: 41rem;
+  margin-left: 42rem;
   text-align: center;
 }
 .col-xl-6 {
