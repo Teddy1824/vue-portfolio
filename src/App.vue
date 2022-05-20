@@ -56,8 +56,9 @@
   text-align: center;
   color: #2c3e50;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
   background-color: #e5e4e2;
-  height: 61rem;
+  height: 48.5rem;
 }
 
 .bg-light {

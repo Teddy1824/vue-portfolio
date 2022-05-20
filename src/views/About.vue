@@ -366,8 +366,9 @@ hr.hrabout {
 .row2 {
   justify-content: center;
   flex-wrap: nowrap;
-  display: flex;
-  margin-left: 130px;
+  /* display: flex; */
+  margin-left: 34rem;
+  text-align: center;
 }
 .col-xl-6 {
   width: 45%;
